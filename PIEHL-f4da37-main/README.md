@@ -91,3 +91,12 @@ TagList → el estado guarda temporalmente el nombre y color de una etiqueta ant
 
 El Service evita que el Controller hable directamente con el Repository, desacoplando la lógica de negocio de la gestión de datos.
 
+Para windows:
+
+wsl --install -d Ubuntu 
+
+wsl --set-default-version 2 
+
+.\run_windows.ps1 
+
+Ingresar ruta de donde está run.sh
